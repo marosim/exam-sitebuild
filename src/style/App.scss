@@ -1,0 +1,110 @@
+@import "reset";
+@import "variables";
+
+
+body {
+  background-color: $background;
+}
+
+h1 {
+  color: #138073;
+  font-weight: 800;
+}
+
+p,
+label {
+  color: $text;
+  font-weight: 300;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+.app {
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  .app {
+    min-width: 80%;
+  }
+}
+
+.form {
+  margin-top: 60px;
+}
+
+@media (max-width: 500px) {
+  .form {
+    margin-top: 100px;
+  }
+}
+
+h1 {
+  margin-bottom: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    margin-right: 5%;
+    font-size: 30px;
+    text-align: right;
+  }
+}
+
+input[type=text] {
+  width: 60%;
+  margin: 20px;
+  padding: 25px 0 25px 30px;
+  font-size: 22px;
+  border: 1px solid #39b69f;
+}
+
+@media (max-width: 500px) {
+  input[type=text] {
+    width: 80%;
+    margin: 15px;
+    padding: 20px 0 20px 30px;
+    font-size: 20px;
+  }
+}
+
+.checkCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 800px) {
+  .checkCont {
+    max-width: 300px;
+    margin-left: 5%;
+    text-align: left;
+  }
+}
+
+.checkCont input {
+  margin: 20px 25px 20px 35px;
+  display: block;
+  text-align: center;
+}
+
+.checkCont label {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+button {
+  padding: 30px 100px 30px 100px;
+  margin-top: 20px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  color: white;
+  border: 1px solid white;
+  background-color: #2fac9d;
+}
+
